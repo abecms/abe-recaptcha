@@ -6,6 +6,15 @@ from your project root:
 ```
 abe install abecms/abe-recaptcha
 ```
+# Configuration
+In your abe.json configuration file, put the infos related to your Google ReCaptcha account (https://www.google.com/recaptcha):
+```
+"reCaptcha": {
+    "siteKey": "xxxxxxxxxxxxxxxx",
+    "secretKey": "yyyyyyyyyyyyyy",
+    "hostname": "localhost"
+  },
+```
 
 # Usage
 
