@@ -13,7 +13,8 @@ module.exports = (req, abe) => {
           secret: abe.config.reCaptcha.secretKey,
           response: gresponse,
           remoteip: req.connection.remoteip
-        }
+        },
+        json:true
       }, function(error, response, body) {
         if(
             body.hostname !== undefined &&
